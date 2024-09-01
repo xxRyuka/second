@@ -14,8 +14,18 @@ window.addEventListener('load', () => {
     }, 2000); // 5000 milisaniye = 5 saniye
 });
 
-// Sayfayı yeniler
-location.reload();
+// Sayfa yüklendiğinde çalışacak kod
+window.onload = function() {
+    // localStorage'da 'pageRefreshed' adında bir anahtar olup olmadığını kontrol et
+    if (!localStorage.getItem('pageRefreshed')) {
+        // Eğer anahtar yoksa, sayfayı yenile
+        localStorage.setItem('pageRefreshed', 'true');
+        location.reload();
+    } else {
+        // Anahtar varsa, anahtarı kaldır ve sayfayı yenileme
+        localStorage.removeItem('pageRefreshed');
+    }
+};
 
 
 //
