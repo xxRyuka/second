@@ -15,7 +15,7 @@ window.addEventListener('load', () => {
 });
 
 // Sayfayı yeniler
-location.reload(true);
+location.reload();
 
 
 //
