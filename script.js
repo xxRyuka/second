@@ -1,4 +1,5 @@
-console.log("kurcalama çok")
+console.log("")
+
 
 
 window.addEventListener('load', () => {
@@ -10,7 +11,7 @@ window.addEventListener('load', () => {
         // Yükleme sayfasını gizle ve içerikleri göster
         loading.style.display = 'none';
         content.style.display = 'block';
-    }, 20); // 5000 milisaniye = 5 saniye
+    }, 2000); // 5000 milisaniye = 5 saniye
 });
 
 // Sayfa yüklendiğinde çalışacak kod
@@ -27,5 +28,19 @@ window.onload = function() {
 };
 
 
-//
+window.addEventListener('load', () => {
+    // 5 saniyelik gecikme
+    setTimeout(() => {
+        const loading = document.getElementById('loading');
+        const content = document.getElementById('content');
+
+        // Yükleme sayfasını gizle ve içerikleri göster
+        loading.style.display = 'none';
+        content.style.display = 'block';
+    }, 2000); // 5000 milisaniye = 5 saniye
+});
+
+
+
+console.log("work")
 
