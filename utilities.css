@@ -397,8 +397,8 @@
 }
 
 
-.softdrink {
-    background-image: url(images/soft.jpg);
+.milkshake {
+    background-image: url(images/milkshake2.webp);
     object-fit: cover;
     background-size: cover;
     background-position: center;
@@ -407,6 +407,80 @@
     margin-top: 5px;
 
 }
+
+
+.smoothie {
+    background-image: url(images/smoothie.webp);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+
+.frappe {
+    background-image: url(images/frappe.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+
+.vitaminbar {
+    background-image: url(images/vitamin.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+
+.espresso {
+    background-image: url(images/espresso.webp);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+
+.bitkicay {
+    background-image: url(images/bitkicay.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+
+.buzlukahve {
+    background-image: url(images/buzlukahve.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+
 
 
 

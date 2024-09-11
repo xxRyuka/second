@@ -1,5 +1,4 @@
-console.log("")
-
+console.log("kurcalama çok")
 
 
 window.addEventListener('load', () => {
@@ -11,7 +10,7 @@ window.addEventListener('load', () => {
         // Yükleme sayfasını gizle ve içerikleri göster
         loading.style.display = 'none';
         content.style.display = 'block';
-    }, 2000); // 5000 milisaniye = 5 saniye
+    }, 20); // 5000 milisaniye = 5 saniye
 });
 
 // Sayfa yüklendiğinde çalışacak kod
