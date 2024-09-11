@@ -1,5 +1,4 @@
-console.log("")
-
+console.log("kurcalama çok")
 
 
 window.addEventListener('load', () => {
@@ -11,7 +10,7 @@ window.addEventListener('load', () => {
         // Yükleme sayfasını gizle ve içerikleri göster
         loading.style.display = 'none';
         content.style.display = 'block';
-    }, 2000); // 5000 milisaniye = 5 saniye
+    }, 20); // 5000 milisaniye = 5 saniye
 });
 
 // Sayfa yüklendiğinde çalışacak kod
@@ -21,26 +20,12 @@ window.onload = function() {
         // Eğer anahtar yoksa, sayfayı yenile
         localStorage.setItem('pageRefreshed', 'true');
         location.reload();
-    } else {
+    } else {            
         // Anahtar varsa, anahtarı kaldır ve sayfayı yenileme
         localStorage.removeItem('pageRefreshed');
     }
 };
 
 
-window.addEventListener('load', () => {
-    // 5 saniyelik gecikme
-    setTimeout(() => {
-        const loading = document.getElementById('loading');
-        const content = document.getElementById('content');
 
-        // Yükleme sayfasını gizle ve içerikleri göster
-        loading.style.display = 'none';
-        content.style.display = 'block';
-    }, 2000); // 5000 milisaniye = 5 saniye
-});
-
-
-
-console.log("work")
 
