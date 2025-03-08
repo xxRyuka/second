@@ -374,7 +374,7 @@
 
 
 .aperatif {
-    background-image: url(images/aperatif.webp);
+    background-image: url(images/patatesyusuf.jpg);
     object-fit: cover;
     background-size: cover;
     background-position: center;
@@ -459,6 +459,16 @@
 
 .bitkicay {
     background-image: url(images/bitkicay.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+.nargile {
+    background-image: url(images/1nargilepinterest.jpg);
     object-fit: cover;
     background-size: cover;
     background-position: center;
